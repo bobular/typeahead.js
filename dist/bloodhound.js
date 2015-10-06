@@ -13,6 +13,7 @@
         module.exports = factory(require("jquery"));
     } else {
         root["Bloodhound"] = factory(jQuery);
+        //root["Bloodhound"] = factory(jQuery);
     }
 })(this, function($) {
     var _ = function() {
